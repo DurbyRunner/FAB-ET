@@ -1,0 +1,6 @@
+[build]
+  command = "bash build.sh"
+  publish = "public"
+  
+[context.production.environment]
+  HUGO_VERSION = "0.115.4"  

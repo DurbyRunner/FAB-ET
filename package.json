@@ -1,0 +1,23 @@
+{
+  "name": "fab-et",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durbyrunner/FAB-ET.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durbyrunner/FAB-ET/issues"
+  },
+  "homepage": "https://github.com/durbyrunner/FAB-ET#readme",
+  "description": "",
+  "dependencies": {
+    "hugo-bin": "^0.143.7"
+  }
+}

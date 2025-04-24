@@ -1,0 +1,142 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full height body to push footer to the bottom */
+html, body {
+  height: 100%;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Background Image with Whitewash */
+#background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#background-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+  opacity: .45;
+}
+
+#background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.4;
+}
+
+/* Header Styles */
+header {
+  background-color: #AA1E2A;
+  color: white;
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-left .slogan {
+  font-size: 20px;
+}
+
+.header-right span {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+  filter: brightness(0) invert(1); /* makes it white */
+}
+
+/* Navbar Styles */
+nav {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  margin-top: -5px;
+  z-index: 2;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-left: 20px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav-links a:hover {
+  color: darkgoldenrod;
+  text-decoration: underline;
+}
+
+.logo-container img {
+  width: 280px;
+}
+
+/* Main Content Styles */
+main {
+  text-align: left;
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-grow: 1; /* This ensures the main content takes up the available space */
+}
+
+.content-container h1 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: auto; /* This makes sure the footer stays at the bottom */
+}

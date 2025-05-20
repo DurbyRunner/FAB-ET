@@ -1,9 +1,0 @@
-[build]
-  command = "npx hugo"
-  publish = "public"
-
-[[redirects]]
-  from = "/images/*"
-  to = "/images/:splat"
-  status = 200
-  force = true

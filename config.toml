@@ -1,6 +1,1 @@
-baseURL = "fabelectricandtrenchingllc.com"
-languageCode = "en-us"
-title = "FAB Electric & Trenching, L.L.C."
-#theme = ""  # Make sure this line is empty or commented out
-[[plugins]]
-package = "@netlify/plugin-hugo"
+baseURL = "https://fabelectricandtrenchingllc.com/"
